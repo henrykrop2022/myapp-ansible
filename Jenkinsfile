@@ -5,8 +5,9 @@ pipeline{
 }
         stages{
             stage("Git SCM"){
+                steps {
                 git 'https://github.com/henrykrop2022/myapp-ansible.git'
+                }
             }
-
         }
-}
+    }
