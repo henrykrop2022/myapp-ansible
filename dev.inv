@@ -1,2 +1,8 @@
-[webservers]
-172.31.12.189 ansible_user=ec2-user 
+[ansibleservers]
+192.168.43.14 
+
+[app1server]
+192.168.43.11
+
+[dbserver]
+192.168.43.13
