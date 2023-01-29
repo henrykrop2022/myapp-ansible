@@ -1,4 +1,4 @@
-[ansibleservers]
+[ansibleserver]
 192.168.43.14 
 
 [app1server]
